@@ -1,6 +1,6 @@
 body {
     background-color: rgb(20,20,20);
-    color: rgb(200,200,200);
+    color: rgb(220,220,220);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:x-small;
 }
@@ -38,11 +38,15 @@ body {
     margin: 10px;
     height: fit-content;
 }
+.food-list p {
+    color: rgb(180,180,180);
+}
 .food-list img {
-    min-width: 100px;
+    object-fit: cover;
+    min-width: 150px;
     width: 100%;
-    border-width: 10px;
-    border-color: rgb(0,255,255);
+    height: fit-content;  
+    border: 3px solid #888;
 }
 
 .ads {
@@ -51,6 +55,11 @@ body {
     flex-direction: column;
     padding: 10px;
     background-color: rgb(50,50,50);
+    text-align: center;
+}
+.ads p {
+    color: #aaa;
+    font-style:italic;
 }
 .ads h2 {
     text-align: center;
@@ -61,7 +70,9 @@ body {
     margin-right: auto;
     width: 150px;
     object-fit: contain;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
 
